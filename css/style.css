@@ -477,4 +477,9 @@ body {
     .sobre-destaque {
         font-size: 1.15rem;
     }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
 }
