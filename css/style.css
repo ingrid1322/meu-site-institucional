@@ -385,6 +385,19 @@ body {
     font-weight: 500;
 }
 
+.footer {
+    width: 100%;
+    padding: 30px 0;
+    background-color: var(--dark-color);
+    color: var(--white);
+    text-align: center;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0 20px;
+}
 
 
 @media (max-width: 768px) {
@@ -481,5 +494,15 @@ body {
     .portfolio-grid {
         grid-template-columns: 1fr;
         gap: 25px;
+    }
+
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+
+    .footer p {
+        font-size: 0.85rem;
+        line-height: 1.5;
     }
 }
